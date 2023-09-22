@@ -48,6 +48,6 @@ const weatherResult=(data)=>{
     const airspeed=document.getElementById('airspeed');
     airspeed.innerText='Air Speed :'+data.wind.speed;
     const degree=document.getElementById('degree');
-    degree.innerText='Wind Direction :'+data.wind.deg + ' Degree';
+    degree.innerText='Wind Direction :'+data.wind.deg + ' °';
 
 }
